@@ -2,19 +2,17 @@
   text-align: center;
 }
 
-.App-logo {
+.images {
   height: 40vmin;
   pointer-events: none;
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
 }
 
 .App-header {
   background-color: #282c34;
+
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -35,4 +33,31 @@
   to {
     transform: rotate(360deg);
   }
+}
+.h1 {
+  color: orangered;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  text-shadow: 2px 4px 5px brown;
+  font-size: 32px;
+
+
+}
+.h2 {
+  line-height: 1.2;
+  font-weight: bold;
+  text-shadow: black;
+  color: black;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 20pt;
+  text-decoration: underline;
+  text-shadow: 1px 1px 1px #8b8b8b;
+}
+
+.Footer {
+  background: linear-gradient(
+    90deg,
+    rgba(6, 2, 69, 1) 0%,
+    rgba(139, 139, 139, 1) 58%
+  );
 }
